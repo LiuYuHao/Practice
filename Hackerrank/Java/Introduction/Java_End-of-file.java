@@ -10,10 +10,15 @@ public class Java_End-of-file {
     */
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        // declare scanner
         Scanner scan = new Scanner(System.in);
+        // set a input variable
         String input = "";
+        // the index of output
         int i = 1;
+        // until the user stop type the input
         while (scan.hasNext()) {
+            // read and output with i
             input = scan.nextLine();
             System.out.printf("%d %s%n",i,input);
             i++;

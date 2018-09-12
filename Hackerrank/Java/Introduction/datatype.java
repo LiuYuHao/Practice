@@ -1,8 +1,10 @@
 import java.util.*;
 import java.io.*;
 
-
-
+/*
+task
+basned on give the input(number), output the dataType that can be stored.
+*/
 class datatype{
     public static void main(String []argh)
     {
@@ -18,6 +20,7 @@ class datatype{
         int t=sc.nextInt();
         for(int i=0;i<t;i++)
         {
+            // the idea is knowing the range of each bit then use that to set up all the if statement
             try
             {
               long l=sc.nextLong();

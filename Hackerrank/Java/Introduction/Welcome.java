@@ -19,15 +19,22 @@ class Welcome {
     Each String is left-justified with trailing whitespace through the first 15 characters.
     The leading digit of the integer is the 16th character, and each integer that was less than 3 digits now has leading zeroes.
     */
+    // create a scanner
+    Scanner sc = new Scanner(System.in);
     System.out.println("================================");
-    for(int i=0;i<3;i++)
+    // a forloop since can test mulitple times
+    for(int j=0;j<3;j++)
     {
+      // get the input
       String s1=sc.next();
       int x=sc.nextInt();
+      // we need to make sure if the integer is 3 digits or not
       if (x < 100) {
+        // if not we need to add a 0
         System.out.printf("%-15s%03d%n",s1,x);
       }
       else {
+        // else jsut normal
         System.out.printf("%-15s%d%n",s1,x);
       }
     }
