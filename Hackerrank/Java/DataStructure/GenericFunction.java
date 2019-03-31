@@ -1,5 +1,6 @@
 
 import java.io.IOException;
+// method type
 import java.lang.reflect.Method;
 
 /*
@@ -28,8 +29,9 @@ public class GenericFunction {
         myPrinter.printArray(intArray);
         myPrinter.printArray(stringArray);
         int count = 0;
-
+        // A good way to check how many methods in a class.
         for (Method method : Printer.class.getDeclaredMethods()) {
+          // getName is a way to get the name of methods
             String name = method.getName();
 
             if(name.equals("printArray"))
