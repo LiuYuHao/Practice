@@ -17,7 +17,8 @@ public class CountingSort {
     }
     int[] b = new int[array.length];
     for (int i = array.length - 1; i > - 1; i--) {
-      int index = c[array[i]] -= 1;
+      c[array[i]] -= 1;
+      int index = c[array[i]];
       b[index] = array[i];
     }
     for (int i = 0; i < array.length; i++) {

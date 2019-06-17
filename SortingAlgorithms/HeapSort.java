@@ -1,4 +1,7 @@
 import java.util.*;
+/*
+HeapSort: nlogn in-place, not stable
+*/
 public class HeapSort {
   public static void heapify(int[] array, int  n, int i) {
     int left = 2*i + 1;
@@ -7,7 +10,7 @@ public class HeapSort {
     if (left < n && array[left] > array[max]) { //for reverse > => <
       max = left;
     }
-    if (right < n && array[right] > array[max]) { // for reverse > => < 
+    if (right < n && array[right] > array[max]) { // for reverse > => <
       max = right;
     }
     if (max != i) {
