@@ -1,6 +1,6 @@
 import java.util.*;
 /*
-CoutingSort: O(k+n) not inplace, stable, k = the max size of array that we need to create
+CoutingSort: O(k+n) not inplace, stable, k = the max size of array that we need to create, stable
 */
 public class CountingSort {
   public static void countingSort(int[] array) {

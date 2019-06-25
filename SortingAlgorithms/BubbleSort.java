@@ -3,7 +3,7 @@ import java.util.*;
 
 public class BubbleSort {
   /*
-  BubbleSort: best: n, worse n^2
+  BubbleSort: best: n, worse n^2, stable, in-place
   */
   public static void bubbleSort(int[] array) {
     for (int i = 0; i < array.length - 1; i++) {

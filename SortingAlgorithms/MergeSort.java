@@ -2,6 +2,8 @@ import java.util.*;
 /*
 MergeSort: time: nlogn
            space: n
+           stable,
+           no inplace
 */
 public class MergeSort {
   public static void merge(int[] array, int l, int m, int r) {

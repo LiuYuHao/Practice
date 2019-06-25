@@ -24,10 +24,14 @@ public class QuickSort {
       int p = partition(array, l, h);
       quickSort(array, l, p - 1);
       quickSort(array, p+1, h);
+      for (int i = 0; i < array.length; i++) {
+        System.out.print(array[i] + " ");
+      }
+        System.out.println("");
     }
   }
   public static void main(String[] args) {
-    int[] test = new int[]{3,4,1,2,6,7,3};
+    int[] test = new int[]{1,4,3,2,6,1,2};
     quickSort(test, 0, test.length - 1);
     for (int i = 0; i < test.length; i++) {
       System.out.print(test[i] + " ");
