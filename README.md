@@ -7,7 +7,7 @@ Thank You<br/>
 
 # Practice
 There are two repos showed my effort
-MyStudies contains all the studies that I assigned to myself
-[Studies](https://github.com/LiuYuHao/MyStudies)
-MyProject contains all the individual project that I do during my free-time
+MyStudies contains all the studies that I assigned to myself <br />
+[Studies](https://github.com/LiuYuHao/MyStudies) <br />
+MyProject contains all the individual project that I do during my free-time <br />
 [Projects](https://github.com/LiuYuHao/MyProjects)
